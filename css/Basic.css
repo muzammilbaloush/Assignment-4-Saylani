@@ -1,0 +1,701 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width: 600px) {
+	/*The First Logo*/
+ .Logo{
+	   width:100%;
+	   height:50px;
+	   position:relative;
+   }
+   /*The menu at Left With The logo*/
+.menu{
+	list-style-type: none;
+    margin: 10;
+    padding: 0;
+	float:center;
+	padding-top: -20px;
+    padding-bottom: 15px;
+	font-size:20px;
+	text-indent:10px;
+	font-family: 'Lato', sans-serif;
+
+   }
+   /*"Welcome To"*/
+.WT{
+	font-size: 20px;
+    color: #fff;
+    margin: 25px;
+    height: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: -10px; 
+	padding-left:32%;
+	text-shadow: 2px 2px 4px #000000;
+	display: none;
+}
+/*LogoAfter Welcome to Hidden For Mobiles.*/
+.LoG{
+	opacity: 0;
+	padding-left:0%;
+	text-shadow: 2px 2px 4px #000000;
+	animation-delay: 2s;
+	animation-duration: 4s;
+	 }
+	 /*Page Description*/
+.P{
+	text-align:Center;
+	width:400px;
+	height:150px;
+	color:white;
+	margin-left:60px;
+	margin-top:140px;
+	font-size:14px;
+	font-family: 'Lato', sans-serif;
+	text-shadow: 2px 2px 4px #000000;
+	position: absolute;
+}
+.dropdown{
+	margin-left:50px;
+	margin-top: 340px;
+	color:white;
+}
+	/*The Scoial Bar With Serach Box At top*/
+
+.navmenu li{
+	display:inline;
+	font-size:16px;	
+	padding:3px;
+	}
+	/*About Company*/
+ .AboutCo{
+  width:100%;
+  height:1500px;
+  margin-left: -20px;
+  font-family: 'Advent Pro', sans-serif;
+  
+  }
+  /*About Company heading */
+.AH{
+  text-align:Center;
+  padding-top:70px;}
+
+.Ac1{
+	float:left;
+	margin:70px;
+	width:320px;
+	height:340px;
+}
+.Ac1 i{
+	font-size:100px; 
+	padding-left:100px;
+}
+.Ac2{
+	float:left;
+	margin:70px;
+	width:370px;
+	height:350px;
+}
+.Ac2 i{
+	font-size:100px; 
+	padding-left:130px;
+}.Ac3{
+	margin:70px;
+	width:360px;
+	height:380px;
+}
+.Ac3 i{
+	font-size:100px; 
+	padding-left:130px;
+}
+
+  /*About Us */
+.AU{
+	width:600px;
+	height:710px;
+	background-color:#FDFDFD;
+	font-family: 'Advent Pro', sans-serif;
+	font-size:16px;
+	opacity: 1;
+	transition: all 2.5s ease;
+}
+.AU img{
+	width:460px;
+	height:235px;
+}
+.Aus{
+	margin: 10px;
+	width:460px; 
+	height:430px;
+	float:left;
+	margin-right:20px;
+}
+.footer{
+	
+	height: 100%;
+background-image: url(../Images/footer.jpg);
+background-size: cover;
+background-position: bottom;
+	color:white;
+	font-family: 'Advent Pro', sans-serif;
+
+}
+.Aboutteam{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 750px;
+  background-color:rgb(238,238,238);
+}
+.ourproduct{
+ font-family: 'Advent Pro', sans-serif;
+ padding: 20px;
+  text-align: justify;
+   font-size: 17px; 
+   width: 650px; 
+   height: 440px;
+   float: left;}
+   .ourproduct img{
+   	width: 100%;
+   }
+
+.credit{width: 100%;height: 70px; background-color: black; color: #b6b6b6;padding-top: 6px; padding-left:20px;}
+
+.cp{width: 500px;}
+.cp1{width:230px;float: left;}
+.Gallery{
+  margin-bottom: 900px;
+  width: 100%;
+  height: 100%;
+    margin-left:0px;
+  background-color: white;
+  padding: 0px;
+
+  text-align: justify;
+  position: absolute;
+
+}
+.Hres{
+  display: none;
+}
+.nl p{
+    display: none;}
+.cpa{display: none;}
+.form{
+  width: 400px;
+}
+ .form input{
+    width: 370px;
+    padding: 5px 15px;
+    background-color: transparent;
+    color: #D8D8D8;
+    border: 1px solid rgba(255,255,255,0.2);
+  position: relative;
+  text-decoration: none;
+  outline: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 50px;
+  }
+
+.Rowss{
+  height: 1000px;
+}
+.contactf{
+  width: 100%;
+  height: 600px;
+  margin-top: 450px;
+  background-image: url(../Images/map.jpg);
+  background-position: center;
+  padding-top: 40px;
+    padding-left: 15px;
+    padding-bottom: 60px;
+    padding-right: 15px;
+    color: white;
+ }
+  .nl{
+    margin-top: 100px;
+    border-top: 0.5px solid #28292a;
+    height: 148px;
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+    padding-right: 0px;
+    display: none;
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 601px) {
+.Logo{
+	   width:100%;
+	   height:50px;
+	   position: relative;
+   }
+   .menu{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	float:right;
+	padding-top: 25px;
+    padding-bottom: 15px;
+	font-size:20px;
+	text-indent:10px;
+	font-family: 'Lato', sans-serif;
+	overflow: hidden;
+   }
+   .WT{
+	font-size: 60px;
+    color: #fff;
+    margin: 0 0 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+	padding-top:100px;
+	padding-left:32%;
+	 text-shadow: 2px 2px 4px #000000;
+}
+.LoG{
+	padding-left:28%;
+	text-shadow: 2px 2px 4px #000000;
+	animation-delay: 2s;
+	animation-duration: 4s;
+
+		 }
+		.P{
+		text-align:Center;
+		width:500px;
+		height:150px;
+		color:white;
+    margin-left: 28%;
+		font-size:14px;
+		font-family: 'Lato', sans-serif;
+		 text-shadow: 2px 2px 4px #000000;
+	  position: absolute;
+}
+.dropdown{
+	margin-left:30%;
+	margin-top: 160px;
+	color:white;
+}
+
+.navmenu li{
+	display:inline;
+	font-size:16px;
+	padding:10px;
+	}
+ .AboutCo{
+  width:100%;
+  height:600px;
+  font-family: 'Advent Pro', sans-serif;
+  color: black;
+  background: #f8f8f8;
+  }
+.AH{
+  text-align:Center;
+  padding-top:70px;}
+.AU{
+	width:100%;
+	height:450px;
+	background-color:white;
+	font-family: 'Advent Pro', sans-serif;
+	font-size:16px;
+	opacity: 1;
+	transition: all 2.5s ease;
+}
+
+	.footer{
+background-image: url(../Images/footer.jpg);
+background-size: cover;
+background-position: bottom;
+	color:white;
+	font-family: 'Advent Pro', sans-serif;
+	width:100%;
+	height:257px;
+position:relative;
+}
+.Rows{
+	margin :2px 15px 0px 15px;
+	padding-top: 10px;
+}
+
+.Ac1{
+	float:left;
+	margin:50px;
+	width:320px;
+	height:340px;
+}
+.Ac1 i{
+	font-size:100px; 
+	padding-left:100px;
+}
+.Ac2{
+	float:left;
+	margin-top:50px;
+	margin-left:10px;
+	width:370px;
+	height:350px;
+}
+.Ac2 i{
+	font-size:100px; 
+	padding-left:130px;
+}.Ac3{
+	margin-left:850px;
+	margin-top:50px;
+	width:360px;
+	height:350px;
+}
+.Ac3 i{
+	font-size:100px; 
+	padding-left:100px;
+}
+.AU img{
+	width:660px;
+	height:435px;
+}
+.Aus{
+	width:550px; 
+	height:430px;
+	float:right;
+	margin-right:20px;
+}
+.Aboutteam{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 450px;
+  background-color:rgb(238,238,238);
+}
+.ourproduct{
+ font-family: 'Advent Pro', sans-serif;
+ padding: 20px;
+  text-align: justify;
+   font-size: 17px; 
+   width: 650px; 
+   height: 440px;
+   float: left;}
+.credit{width: 100%;height: 40px; background-color: black; color: #b6b6b6;padding-top: 6px; padding-left:20px;}
+}
+.cp{width: 500px;float: left;}
+.cp1{width:230px;float: right;}
+.Gallery{
+  width: 100%;
+  height: 700px;
+    margin-left:70px;
+  background-color: white;
+  padding: 0px;
+
+  text-align: justify;
+  position: relative;
+
+}
+.nl p{
+    color: grey;
+  }
+ .form input{
+    width: 570px;
+    padding: 5px 15px;
+    background-color: transparent;
+    color: #D8D8D8;
+    border: 1px solid rgba(255,255,255,0.2);
+  position: relative;
+  text-decoration: none;
+  outline: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 50px;
+  }
+  .Rowss{
+  height: 750px;
+  margin: 0px;
+}
+ .contactf{
+  width: 100%;
+  height: 600px;
+  background-image: url(../Images/map.jpg);
+  background-position: center;
+  padding-top: 40px;
+    padding-left: 15px;
+    padding-bottom: 60px;
+    padding-right: 15px;
+    color: white;
+ }
+  .nl{
+    border-top: 0.5px solid #28292a;
+    height: 148px;
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+    padding-right: 0px;
+  }
+
+
+
+}
+/* End Of Max*/
+
+   
+.menu li{
+	 display:inline-block;
+	 padding:0px 0px;
+	  }
+	.menu li a{
+	text-decoration:none;
+	color:#CCC;
+   }
+.menu li a:hover{
+	color:#FFF;
+	font-size:23px;}
+.navmenu{
+	position:relative;
+	top:0px;
+	list-style-type:none;
+	width:100%;
+	margin:0px;
+	background-color:black;
+	color:grey;
+	height:38px;
+	padding:7px;
+	}
+	
+.navmenu li a{
+	color:white;}
+	.navmenu li a i{
+	font-size:16px;
+}
+.navmenu li:hover{
+	background-color:#999;}
+
+	.dropdown li:hover{
+	
+		font-size: 17px;
+		background-color: white;
+		color: black;
+		margin: 0px;
+		padding: 0px;
+
+	}
+/*Damn*/
+.hovereffect {
+  width: 550px;
+  height: 425px;
+  float:right;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  margin: 20px;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background-color: rgba(0,0,0,0.5);
+  -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background: rgba(0,0,0,0.6);
+  -webkit-transform: translatey(-100px);
+  -ms-transform: translatey(-100px);
+  transform: translatey(-100px);
+  -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  padding: 10px;
+}
+
+.hovereffect a.info {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin: 50px 0 0;
+  padding: 7px 14px;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0);
+}
+
+.hovereffect:hover a.info {
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+		
+
+ .form{
+ 	margin-top:30px;
+ }
+
+  .form input:hover{
+  	color:white;
+  	  	border: 1px solid white;
+
+  }
+    .form input:clicked{
+  	color:white;
+  	  	border: 1px solid white;
+
+  }
+  .form textarea{
+  	width: 570px;
+  	padding: 5px 15px;
+  	background-color: transparent;
+  	color: #D8D8D8;
+  	border: 2px solid rgba(255,255,255,0.3);
+position: relative;
+text-decoration: none;
+outline: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+  }
+    .form textarea:hover{
+  	color:white;
+   	border: 1px solid white;
+  }
+  .form button{
+  	margin-bottom: 10px;
+    margin-top: 10px;
+  		padding: 5px 15px;
+  	background: transparent;
+    font-weight: 400;
+    border: 2px solid rgba(255,255,255,0.3);
+    overflow: visible;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    position: relative;
+    padding: 10px 25px!important;
+    text-decoration: none;
+    outline: none;
+    line-height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50px;
+  }
+
+
+	
+	.nl input{
+		width: 300px;
+		height: 40px;
+		background-color: transparent;
+		color:grey;
+		padding-left: 15px;
+		border: 2px solid rgba(0,0,0,0.3);
+
+	}
+	.nl button{
+		margin-bottom: 10px;
+    margin-top: 10px;
+  		padding: 5px 15px;
+  	background: #28292a;
+    font-weight: 400;
+    overflow: visible;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    position: relative;
+    padding: 10px 25px!important;
+    text-decoration: none;
+    outline: none;
+    line-height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 42px;
+    color: white;
+    border: none;
+	}
+
+.team{
+  height: 900px;
+  padding: 20px;
+
+}
+.teamin{
+  float: left;
+  width: 250px;
+  margin-left: 15px;
+  margin-top: 40px;
+  color: grey;
+}
+.teamin p{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 14px;
+}
+.teaminr{
+  float: left;
+  text-align: right;
+  width: 250px;
+  margin-left: 30px;
+  margin-top: 40px;
+  color: grey;
+}
+.teaminr:hover{
+ color: black;
+}
+.teamin:hover{
+ color: black;
+}
+.img-thumbnail:hover{
+  border: none;
+}
+.heade{
+height: 300px;
+background-image: url(../images/p20.jpg);
+background-size: cover;
+background-position: center;
+}

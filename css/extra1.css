@@ -1,0 +1,238 @@
+img {
+    max-width: none;
+}
+.md-megamenu img {
+  max-width: 100%;
+}
+ul.awemenu .search_toggle a:before{
+    content:"\f002";
+    font-family: "FontAwesome";
+    display: block;
+}
+ul.awemenu .search_toggle a span{
+    display: none;
+}
+
+
+
+/* Basic */
+.awemenu-has-logo .awemenu-logo{
+	line-height: 70px;
+}
+.topnav.topnav-top .md-megamenu li.awemenu-item-level-1 > a{
+  height: 78px;
+  line-height: 78px
+}
+.topnav.topnav-top .awemenu-logo{
+  line-height: 65px;
+}
+.topnav.topnav-top .awemenu-nav .awemenu-bars{
+  line-height: 64px;
+}
+.awemenu-nav .awemenu-bars{
+  line-height: 46px;
+}
+.awemenu-nav .awemenu-bars span.fa-bars {
+  background-color: #32313b;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+}
+
+
+/* Logo */
+.awemenu-has-logo .awemenu-logo{
+	line-height: 45px;
+  transition: all 250ms ease-in-out 0s;
+  -moz-transition: all 250ms ease-in-out 0s;
+  -o-transition: all 250ms ease-in-out 0s;
+  -webkit-transition: all 250ms ease-in-out 0s;
+}
+
+
+/* Main menu Multipage */
+.md-megamenu li > a {
+  /*color: #32313b;*/
+  padding: 0 20px;
+}
+.md-megamenu li.awemenu-item-level-1 > a {
+  /*color: rgba(0,0,0,0.5);*/
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 2px;
+  padding: 0 0 0 20px;
+    height: 60px;
+    line-height: 60px;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+.md-megamenu li.awemenu-item-level-1 > a:hover,
+.md-megamenu li.awemenu-item-level-1.awemenu-active > a,
+.md-megamenu li.awemenu-item-level-1.awemenu-active-trail > a {
+  /*color: #171A1C;*/
+  opacity: 0.8;
+}
+
+
+/* Menu header description*/
+.awemenu-nav .awemenu-megamenu-wrapper .mm-header{    
+	/*color: #313131;*/
+	font-size: 11px;
+  font-weight: 700;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  letter-spacing: 2px;
+  line-height: 1.42857;
+  min-height: 15px;
+  text-transform: uppercase;
+}
+
+ul.awemenu-submenu li .mainmenu_desctiption{
+	/*border-bottom: 1px solid rgba(0, 0, 0, 0.05);*/
+	margin-bottom: 20px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-top: 5px;
+  text-align: center;
+}
+ul.awemenu-submenu li .mainmenu_desctiption p{
+	display: inline-block;
+	/*color: #121212;*/
+  font-family: "Raleway",sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-right: 40px;
+}
+ul.awemenu-submenu li .mainmenu_desctiption a.btn{
+	display: inline-block;
+}
+
+/* Icon */
+.md-megamenu li.awemenu-has-children > a:after{
+  font-family: "FontAwesome";
+  margin-left: 10px;
+}
+.md-megamenu ul.awemenu > li.awemenu-has-children > a:after{
+  content: "\f107";
+}
+.md-megamenu ul.awemenu-dropdown li.awemenu-has-children > a:after{
+  content: "\f105";
+  position: absolute;
+  right: 15px;
+}
+
+/* Menu sub */
+.awemenu-item-level-1 >.awemenu-submenu {
+  border-top: none;
+}
+
+/* Menu dropdow */
+ul.awemenu-dropdown > li > a {
+  /*color: #999;*/
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 13px 18px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 1.42857;
+  white-space: nowrap;
+  position: relative;
+}
+ul.awemenu-dropdown > li > a:hover {
+	/*color: #121212;*/
+}
+
+/* Menu mega */
+ul.awemenu-megamenu .awemenu-megamenu-wrapper{
+	padding: 10px 15px 15px;
+}
+ul.awemenu-megamenu .awemenu-megamenu-wrapper a{	
+  /*color: #999;*/
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  width: 100%;
+  -moz-transition: color 250ms ease-in-out;
+  -o-transition: color 250ms ease-in-out;
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out
+}
+ul.awemenu-megamenu .awemenu-megamenu-wrapper a:hover {
+	/*color: #121212;*/
+}
+
+
+/* Mobile */
+#topbar-hold .md-mobile-custom li.awemenu-item-level-1 > a{
+	height: auto;
+	line-height: 40px;
+}
+#topbar-hold .md-mobile-custom li.awemenu-item-level-1 > a i{
+	line-height: 40px;
+}
+#topbar-hold .md-mobile-custom .toggle-header-index{
+	display: none;
+}
+
+
+@media (min-width: 993px) {
+	/* Menu Center*/
+	.topnav.logo-center .awemenu-logo{
+		float: none;
+	  text-align: center;
+	  padding-top: 10px;
+	}
+	.topnav.logo-center .awemenu{
+		float: none;
+		text-align:center;
+	}
+	.topnav.logo-center .awemenu > .awemenu-item{
+		float: none;
+		display: inline-block;
+		text-align: left;
+	}
+}
+
+@media (max-width: 992px) {
+	.md-megamenu li.awemenu-has-children > a:after{
+		display: none;
+	}
+	.md-megamenu li.awemenu-item-level-1 > a i{
+		float: right;
+		line-height: 60px;
+	}
+	.md-megamenu li.awemenu-item-level-1 > a{
+		border-bottom: 1px solid rgba(0, 0, 0, 0.07);	
+		padding: 0;
+	}
+
+
+	.md-megamenu ul.awemenu-dropdown li.awemenu-has-children > a i{
+		position: absolute;
+		right: 20px;
+	}
+	.md-megamenu ul.awemenu-submenu{
+		background-color: rgba(0, 0, 0, 0.05);
+	}
+	
+}
+
+@media (min-width: 640px) and (max-width: 992px) {
+  .awemenu-nav .awemenu-bars{
+    float: right;
+  }
+}
+
+/*  Add fix css */
+.topnav .section.section_header, .md-megamenu ul.awemenu-submenu, .topnav.topnav-top .awemenu-mobile-standard .awemenu {
+    background-color: rgb(18, 18, 18);
+}
